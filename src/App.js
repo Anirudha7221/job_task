@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Home />}></Route>
+            <Route path="/React-Calculator" element={<Home />}></Route>
             <Route path="/wordpage" element={<Word_page />}></Route>
             <Route path="/parapage" element={<Para_page />}></Route>
         </Routes>
