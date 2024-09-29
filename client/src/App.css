@@ -1,0 +1,39 @@
+#containeer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#searchbar{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#searchbar>input{
+    width: 45vw;
+    border: none;
+    outline: none;
+}
+
+#searchbar>span{
+    cursor: pointer;
+}
+
+#section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+    width: 80vw;
+    cursor: pointer;
+}
+
+#section>p{
+    font-weight: 700;
+}
+
+.active{
+    border-bottom: 2px solid blue;
+    color: blue;
+}
