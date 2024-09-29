@@ -23,14 +23,10 @@
 
 #section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     margin: 2rem;
-    width: 80vw;
+    width: 100vw;
     cursor: pointer;
-}
-
-#section>p{
-    font-weight: 700;
 }
 
 .active{
